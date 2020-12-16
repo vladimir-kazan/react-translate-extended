@@ -1,4 +1,4 @@
-# react-translate-extended
+# react-translate-plus
 
 > Internationalization for react
 
@@ -7,9 +7,9 @@ This this the fork of https://github.com/bloodyowl/react-translate with the supp
 ## Getting started
 
 ```console
-$ npm install --save react-translate-extended
+$ npm install --save react-translate-plus
 # or
-$ yarn add react-translate-extended
+$ yarn add react-translate-plus
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ $ yarn add react-translate-extended
 ### With hooks
 
 ```javascript
-import { TranslatorProvider, useTranslate } from "react-translate-extended"
+import { TranslatorProvider, useTranslate } from "react-translate-plus"
 
 let translations = {
   locale: "en",
@@ -44,7 +44,7 @@ function App() {
 
 
 ```javascript
-import { TranslatorProvider, translate } from "react-translate-extended"
+import { TranslatorProvider, translate } from "react-translate-plus"
 
 let translations = {
   locale: "en",
@@ -76,7 +76,7 @@ Provides the translation data for descendant components.
 
 ```javascript
 import { render } from "react-dom";
-import { TranslatorProvider } from "react-translate-extended";
+import { TranslatorProvider } from "react-translate-plus";
 
 // …
 
@@ -128,7 +128,7 @@ Translations should be grouped by component:
 
 ```js
 const translations = {
-  // the `locale` parameter is mandatory, it enables react-translate-extended to use
+  // the `locale` parameter is mandatory, it enables react-translate-plus to use
   // the right rules for singular and plural
   locale: "fr",
   ComponentName: {
