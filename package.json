@@ -1,6 +1,6 @@
 {
-  "name": "react-translate",
-  "version": "7.0.1",
+  "name": "react-translate-extended",
+  "version": "1.0.0",
   "description": "react utilities for simple i18n",
   "main": "./lib/ReactTranslate.js",
   "files": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bloodyowl/react-translate"
+    "url": "https://github.com/vladimir-kazan/react-translate-extended"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -38,7 +38,7 @@
       "src"
     ]
   },
-  "author": "bloodyowl",
+  "author": "vladimir-kazan, bloodyowl",
   "license": "MIT",
   "dependencies": {
     "invariant": "^2.1.2"

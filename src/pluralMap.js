@@ -43,7 +43,15 @@ const pluralMap = {
 
   is: ICELANDIC,
 
-  et: GERMAN
+  et: GERMAN,
+
+  /**
+   * This is the urgent fix to prevent errors.
+   * TODO: figure out exact plural rules for the added locales below
+   */
+  lt: GERMAN,
+  ro: GERMAN,
+  sl: GERMAN
 };
 
 export default pluralMap;
